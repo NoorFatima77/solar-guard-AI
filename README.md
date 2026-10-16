@@ -57,6 +57,20 @@ The function `predict_image(path)` takes an image path, preprocesses the image, 
 
 Random Forest is our best model so far. The CNN does well on Snow-Covered panels but finds Electrical-damage and Physical-Damage harder, probably because there are fewer images of them.
 
+## Plots
+
+**Class distribution.** The number of images in each of the 6 classes.
+
+![Class distribution](class_distribution.png)
+
+**CNN training and validation accuracy.** Accuracy of the CNN on the training and validation sets over 20 epochs. Training accuracy keeps rising to about 0.71, while validation accuracy ends near 0.63, so the model starts to overfit a little on this small dataset.
+
+![CNN training curves](cnn_training_curves.png)
+
+**Confusion matrix (Random Forest, validation set).** Shows which classes the best Machine Learning model confuses with each other.
+
+![Confusion matrix of Random Forest](confusion_matrix_random_forest.png)
+
 ## Problems we faced
 
 - Images came in many different sizes and had to be resized to one size.
@@ -86,3 +100,4 @@ Python, OpenCV, NumPy, Pandas, scikit-learn, scikit-image, TensorFlow/Keras, Mat
 
 - `milestone2_solarguard_ai.ipynb`: the full Milestone 2 code
 - `README.md`: this file
+- `class_distribution.png`, `cnn_training_curves.png`, `confusion_matrix_random_forest.png`: plots used in this README
