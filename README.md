@@ -8,11 +8,11 @@ Solar power is growing fast in Pakistan, and checking panels by hand on a roof i
 
 | Member | Area            | Work in Milestone 2 |
 
-| Noor   | Computer Vision | Data exploration, image preprocessing, train/validation/test split 
+| sadia  | Computer Vision | Data exploration, image preprocessing, train/validation/test split 
 
 | Sonia  | Machine Learning| HOG and color features, Random Forest, SVM, KNN, evaluation 
 
-| Sadia  | Deep Learning   | CNN built from scratch, training, learning curves 
+| Noor   | Deep Learning   | CNN built from scratch, training, learning curves 
 
 ## Dataset
 
