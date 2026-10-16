@@ -6,20 +6,18 @@ Solar power is growing fast in Pakistan, and checking panels by hand on a roof i
 
 ## Team
 
-| Member | Area            | Work in Milestone 2 |
-
-| sadia  | Computer Vision | Data exploration, image preprocessing, train/validation/test split 
-
-| Sonia  | Machine Learning| HOG and color features, Random Forest, SVM, KNN, evaluation 
-
-| Noor   | Deep Learning   | CNN built from scratch, training, learning curves 
+| Member | Area | Work in Milestone 2 |
+|---|---|---|
+| Sadia | Computer Vision | Data exploration, image preprocessing, train/validation/test split |
+| Sonia | Machine Learning | HOG and color features, Random Forest, SVM, KNN, evaluation |
+| Noor | Deep Learning | CNN built from scratch, training, learning curves |
 
 ## Dataset
 
 We used the [Solar Panel Images dataset on Kaggle](https://www.kaggle.com/datasets/pythonafroz/solar-panel-images). It has 869 images in 6 classes.
 
 | Class | Images |
-
+|---|---|
 | Bird-drop | 191 |
 | Clean | 193 |
 | Dusty | 190 |
@@ -51,7 +49,7 @@ The function `predict_image(path)` takes an image path, preprocesses the image, 
 ## Results (validation set)
 
 | Model | Accuracy | Macro F1 |
-
+|---|---|---|
 | Random Forest | 0.692 | 0.695 |
 | SVM | 0.585 | 0.595 |
 | KNN | 0.338 | 0.284 |
